@@ -9,7 +9,7 @@ const ThemeToggleButton = () => {
   return (
     <button
       type="button"
-      aria-label="Theme-Toggle-Button"
+      aria-label="Toggle theme"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       className="flex cursor-pointer items-center">
       <SunIcon

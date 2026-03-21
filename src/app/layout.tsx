@@ -1,7 +1,7 @@
 import ThemeProvider from "@/components/Providers/ThemeProvider";
 import { geistMono, geistSans } from "@/lib/fonts";
+import { LayoutChildrenProps } from "@/lib/types";
 import { Metadata } from "next";
-import { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -10,11 +10,7 @@ export const metadata: Metadata = {
     "NextHire is a modern job portal where job seekers discover opportunities and employers find the right talent. Browse jobs, apply instantly, and build your future with NextHire.",
 };
 
-type RootLayoutProps = Readonly<{
-  children: ReactNode;
-}>;
-
-const RootLayout = ({ children }: RootLayoutProps) => {
+const RootLayout = ({ children }: LayoutChildrenProps) => {
   return (
     <html
       lang="en"
@@ -25,7 +21,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
           attribute={"class"}
           defaultTheme="dark"
           enableSystem={false}>
-          <main>{children}</main>
+          {children}
         </ThemeProvider>
       </body>
     </html>

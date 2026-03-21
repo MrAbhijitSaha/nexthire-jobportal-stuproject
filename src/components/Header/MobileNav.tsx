@@ -58,7 +58,7 @@ const MobileNav = () => {
 
           {/* sign in link  */}
           <Link
-            href={"/auth/signin"}
+            href={"/auth"}
             className="hover:text-blue-600 dark:hover:text-blue-400"
             onClick={() => setOpen(false)}>
             Sign in

@@ -8,6 +8,7 @@ import LandingNav from "./LandingNav";
 
 const Header = () => {
   const path = usePathname();
+
   return (
     <header
       className={`fixed top-0 right-0 left-0 z-50 ${path === "/auth/signup" || path === "/auth/signin" ? "backdrop-blur-md" : "border-b shadow backdrop-blur-lg"}`}
@@ -23,7 +24,7 @@ const Header = () => {
             height={100}
             width={100}
             loading="eager"
-            className="h-10 w-full"
+            className="h-10 w-auto"
           />
         </Link>
 

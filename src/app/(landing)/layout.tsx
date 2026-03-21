@@ -1,13 +1,13 @@
 import LandingFooter from "@/components/Footer/LandingFooter";
 import Header from "@/components/Header/Header";
-import { CustomLayoutProps } from "@/lib/type";
+import { LayoutChildrenProps } from "@/lib/types";
 
-const LandingLayout = ({ children }: CustomLayoutProps) => {
+const LandingLayout = ({ children }: LayoutChildrenProps) => {
   return (
     <>
       <Header />
 
-      {children}
+      <main>{children}</main>
 
       <LandingFooter />
     </>

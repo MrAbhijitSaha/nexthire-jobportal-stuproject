@@ -1,7 +1,7 @@
 import { LucideIcon } from "lucide-react";
 import { ReactNode } from "react";
 
-export type CustomLayoutProps = Readonly<{
+export type LayoutChildrenProps = Readonly<{
   children: ReactNode;
 }>;
 

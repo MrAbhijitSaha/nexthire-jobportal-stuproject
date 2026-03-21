@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ThemeToggleButton from "../Buttons/ThemeToggleButton";
-import { Button } from "../shadcnui/button";
+import { buttonVariants } from "../shadcnui/button";
 import { Separator } from "../shadcnui/separator";
 
 const DesktopNav = () => {
@@ -36,18 +36,16 @@ const DesktopNav = () => {
 
       {/* sign in link  */}
       <Link
-        href={"/auth/signin"}
+        href={"/auth"}
         className="hover:text-blue-600 dark:hover:text-blue-400">
         Sign in
       </Link>
 
       {/* sign up button  */}
-      <Link href="/auth/signup">
-        <Button
-          variant="outline"
-          className="hover:text-blue-600 dark:hover:text-blue-400">
-          Sign up
-        </Button>
+      <Link
+        href="/auth/signup"
+        className={`${buttonVariants({ variant: "outline" })} hover:text-blue-600 dark:hover:text-blue-400`}>
+        Sign up
       </Link>
     </>
   );

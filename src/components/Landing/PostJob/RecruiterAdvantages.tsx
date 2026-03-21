@@ -5,12 +5,12 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/shadcnui/card";
-import { AdvantageCardType } from "@/lib/type";
-type reqruiterAdvantagesProps = {
+import { AdvantageCardType } from "@/lib/types";
+type ReqruiterAdvantagesProps = {
   info: AdvantageCardType;
 };
 
-const RecruiterAdvantages = ({ info }: reqruiterAdvantagesProps) => {
+const RecruiterAdvantages = ({ info }: ReqruiterAdvantagesProps) => {
   return (
     <>
       <Card className="bg-white/4 shadow-md">

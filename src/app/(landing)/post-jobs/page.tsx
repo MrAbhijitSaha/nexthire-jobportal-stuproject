@@ -2,7 +2,7 @@ import FooterTop from "@/components/Landing/FooterTop";
 import OurGrowingNetwork from "@/components/Landing/OurGrowingNetwork";
 import PostHero from "@/components/Landing/PostJob/PostHero";
 import RecruiterAdvantages from "@/components/Landing/PostJob/RecruiterAdvantages";
-import { reqruiterAdvantageCardDetails } from "@/lib/information";
+import { recruiterAdvantageCardDetails } from "@/lib/information";
 
 const page = () => {
   return (
@@ -25,7 +25,7 @@ const page = () => {
           </p>
 
           <section className="grid grid-cols-1 gap-8 rounded-xl bg-white p-8 shadow-lg md:grid-cols-2 dark:bg-white/16">
-            {reqruiterAdvantageCardDetails.map((detail) => (
+            {recruiterAdvantageCardDetails.map((detail) => (
               <RecruiterAdvantages
                 key={detail.id}
                 info={detail}

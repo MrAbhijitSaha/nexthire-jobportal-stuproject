@@ -44,15 +44,14 @@ export const candidateAdvantageCardDetails: AdvantageCardType[] = [
   },
 ];
 
-export const reqruiterAdvantageCardDetails: AdvantageCardType[] = [
+export const recruiterAdvantageCardDetails: AdvantageCardType[] = [
   {
     id: 1,
     icon: PlusCircleIcon,
-    heading: " Post Jobs Easily",
+    heading: "Post Jobs Easily",
     description:
       "Create and publish job listings in minutes. Reach thousands of potential candidates and attract the right talent with customizable job descriptions and smart targeting.",
   },
-
   {
     id: 2,
     icon: InboxIcon,
@@ -60,7 +59,6 @@ export const reqruiterAdvantageCardDetails: AdvantageCardType[] = [
     description:
       "Track and organize all applications in one place. Filter candidates, review resumes, and move applicants through your hiring pipeline effortlessly.",
   },
-
   {
     id: 3,
     icon: UserCheckIcon,
@@ -68,7 +66,6 @@ export const reqruiterAdvantageCardDetails: AdvantageCardType[] = [
     description:
       "Quickly shortlist top candidates and connect with them directly. Schedule interviews, send messages, and collaborate with your team without leaving the platform.",
   },
-
   {
     id: 4,
     icon: TrendingUpIcon,

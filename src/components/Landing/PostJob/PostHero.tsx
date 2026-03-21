@@ -5,8 +5,6 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-//    , simple, fast,
-//         and efficient
 const PostHero = () => {
   return (
     <section className="space-y-4 text-center">
