@@ -1,3 +1,4 @@
+import LandingFooter from "@/components/Footer/LandingFooter";
 import Header from "@/components/Header/Header";
 import { CustomLayoutProps } from "@/lib/type";
 
@@ -7,6 +8,8 @@ const LandingLayout = ({ children }: CustomLayoutProps) => {
       <Header />
 
       {children}
+
+      <LandingFooter />
     </>
   );
 };
