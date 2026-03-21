@@ -8,7 +8,7 @@ import {
   TrendingUpIcon,
   UserCheckIcon,
 } from "lucide-react";
-import { AdvantageCardType } from "./type";
+import { AdvantageCardType } from "./types";
 
 export const candidateAdvantageCardDetails: AdvantageCardType[] = [
   {
@@ -18,7 +18,6 @@ export const candidateAdvantageCardDetails: AdvantageCardType[] = [
     description:
       "Browse thousands of job opportunities tailored to your skills, experience, and preferences. Use smart filters to quickly find roles that match what you’re looking for.",
   },
-
   {
     id: 2,
     icon: SendHorizontalIcon,
@@ -26,7 +25,6 @@ export const candidateAdvantageCardDetails: AdvantageCardType[] = [
     description:
       "Apply to jobs in just a few clicks with a simple and streamlined process. Upload your resume, fill in your details, and submit applications without hassle.",
   },
-
   {
     id: 3,
     icon: BookmarkIcon,
@@ -34,7 +32,6 @@ export const candidateAdvantageCardDetails: AdvantageCardType[] = [
     description:
       "Bookmark jobs that interest you and come back to them anytime. Keep track of opportunities so you never miss the right one.",
   },
-
   {
     id: 4,
     icon: ClipboardListIcon,
