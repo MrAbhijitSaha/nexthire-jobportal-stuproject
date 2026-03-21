@@ -1,5 +1,6 @@
 import CandidateAdvantages from "@/components/Landing/FindJob/CandidateAdvantages";
 import Hero from "@/components/Landing/FindJob/Hero";
+import FooterTop from "@/components/Landing/FooterTop";
 import OurGrowingNetwork from "@/components/Landing/OurGrowingNetwork";
 import { candidateAdvantageCardDetails } from "@/lib/information";
 
@@ -44,6 +45,10 @@ const page = () => {
           </p>
 
           <OurGrowingNetwork />
+        </section>
+
+        <section className="pb-24">
+          <FooterTop />
         </section>
       </section>
     </section>
