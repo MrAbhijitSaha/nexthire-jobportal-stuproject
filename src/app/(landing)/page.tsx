@@ -1,5 +1,6 @@
 import CandidateAdvantages from "@/components/Landing/FindJob/CandidateAdvantages";
 import Hero from "@/components/Landing/FindJob/Hero";
+import OurGrowingNetwork from "@/components/Landing/OurGrowingNetwork";
 import { candidateAdvantageCardDetails } from "@/lib/information";
 
 const page = () => {
@@ -30,6 +31,19 @@ const page = () => {
               />
             ))}
           </section>
+        </section>
+
+        {/* Our achivment / Growing  Network section  */}
+        <section className="space-y-6 pb-24 text-center">
+          <h3 className="text-2xl font-bold md:text-4xl">
+            Our Growing Network
+          </h3>
+          <p className="mx-auto text-base text-black/75 md:block md:w-3xl dark:text-white/75">
+            Join thousands of jobseekers and companies who trust our platform to
+            connect talent with the right opportunities every day.
+          </p>
+
+          <OurGrowingNetwork />
         </section>
       </section>
     </section>
