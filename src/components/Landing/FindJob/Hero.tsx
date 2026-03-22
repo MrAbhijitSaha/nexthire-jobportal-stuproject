@@ -7,9 +7,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="space-y-4 text-center">
-      {/* badge  */}
-
+    <section className="flex flex-col space-y-4 text-center">
       <div className="mx-auto flex w-3xs cursor-pointer justify-center gap-4 rounded-full border border-black/24 bg-white/2 py-1.5 hover:bg-white/3 dark:border-white/24">
         <BriefcaseBusinessIcon /> <span>|</span> For Job Seekers
         <ChevronRightIcon />
@@ -50,13 +48,11 @@ const Hero = () => {
       </p>
 
       {/* call to action button  */}
-      <Link href="/auth/signup">
-        <button
-          type="button"
-          className="mx-auto flex items-center gap-2 rounded-xl bg-blue-600 px-12 py-2.5 text-[16px] text-white hover:bg-blue-800 hover:text-white dark:bg-blue-600 dark:hover:bg-blue-700">
-          Get Hired
-          <MoveRightIcon />
-        </button>
+      <Link
+        href="/auth/signup"
+        className="mx-auto flex items-center gap-2 rounded-xl bg-blue-600 px-12 py-2.5 text-[16px] text-white hover:bg-blue-800 hover:text-white dark:bg-blue-600 dark:hover:bg-blue-700">
+        Get Hired
+        <MoveRightIcon />
       </Link>
     </section>
   );

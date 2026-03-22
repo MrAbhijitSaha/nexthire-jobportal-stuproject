@@ -18,15 +18,13 @@ const FooterTop = () => {
 
           <p className="block text-base font-medium text-black/65 md:hidden dark:text-white/75">
             Ready to find the right opportunity? Discover jobs that match your
-            skills and connect with the right
+            skills and connect with the right employers.
           </p>
 
-          <Link href="/auth/signup">
-            <button
-              type="button"
-              className="mx-auto rounded-xl bg-black px-12 py-2.5 text-[16px] text-white hover:bg-black/85 hover:text-white dark:bg-blue-600 dark:hover:bg-blue-700">
-              Let&apos;s Start
-            </button>
+          <Link
+            href="/auth/signup"
+            className="mx-auto rounded-xl bg-black px-12 py-2.5 text-[16px] text-white hover:bg-black/85 hover:text-white dark:bg-blue-600 dark:hover:bg-blue-700">
+            Let&apos;s Start
           </Link>
         </section>
       </div>

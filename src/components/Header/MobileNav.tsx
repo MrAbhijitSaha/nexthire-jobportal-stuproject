@@ -32,7 +32,9 @@ const MobileNav = () => {
             onClick={() => setOpen(false)}>
             Next Hire
           </SheetTitle>
-          <SheetDescription />
+          <SheetDescription className="sr-only">
+            Mobile navigation menu
+          </SheetDescription>
         </SheetHeader>
 
         <div className="grid grid-cols-1 gap-4 px-4 font-semibold">

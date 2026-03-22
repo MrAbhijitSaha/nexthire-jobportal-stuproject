@@ -27,7 +27,7 @@ const OurGrowingNetwork = () => {
           <BriefcaseBusinessIcon size={30} />
           100+
         </div>
-        <div className="font-medium md:text-[22px]">Total Job Post</div>
+        <div className="font-medium md:text-[22px]">Total Job Posts</div>
       </div>
     </div>
   );
