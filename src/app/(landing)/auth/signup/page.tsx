@@ -1,5 +1,4 @@
 import { default as SignupForm } from "@/components/Forms/SignupForm";
-} from "@/components/shadcnui/card";
 import { Separator } from "@/components/shadcnui/separator";
 import { Metadata } from "next";
 import Image from "next/image";
