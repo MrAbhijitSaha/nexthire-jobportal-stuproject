@@ -114,7 +114,7 @@ const SigninForm = () => {
             <Loader2Icon className="animate-spin" />
             Signing in...
           </>
-        : "Signin in"}
+        : "Sign in"}
       </Button>
     </form>
   );

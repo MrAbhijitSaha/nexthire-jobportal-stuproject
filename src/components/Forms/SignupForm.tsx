@@ -154,7 +154,7 @@ const SignupForm = () => {
                       width={120}
                       className="p-4"
                     />
-                    Employee
+                    Candidate
                   </FieldContent>
                   <RadioGroupItem
                     value="candidate"
