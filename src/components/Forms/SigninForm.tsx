@@ -27,17 +27,17 @@ const SigninForm = () => {
     mode: "all",
   });
 
-  const handleSignupFormSubmit = async (fValues: SigninFormType) => {
+  const handleSigninFormSubmit = async (fValues: SigninFormType) => {
     await new Promise<void>((r) => setTimeout(r, 3000));
 
     try {
-      toast.success("successfully signup");
+      toast.success("successfully signin");
 
       reset();
     } catch (err) {
       console.error(err);
 
-      toast.error("signup failed");
+      toast.error("signin failed");
     }
 
     console.log(fValues);
@@ -45,7 +45,7 @@ const SigninForm = () => {
 
   return (
     <form
-      onSubmit={handleSubmit(handleSignupFormSubmit)}
+      onSubmit={handleSubmit(handleSigninFormSubmit)}
       className="space-y-4">
       {/* email field  */}
       <Controller

@@ -69,10 +69,10 @@ const page = () => {
               <p className="text-sm text-white/40">Sign in to your account</p>
             </div>
 
-            {/* signup with google button */}
+            {/* signin with google button */}
             <SigninWithGoogleButton />
 
-            {/* signup form */}
+            {/* signin form */}
             <SigninForm />
 
             {/* Divider */}
@@ -82,7 +82,7 @@ const page = () => {
               <Separator className="col-span-2" />
             </div>
 
-            {/* Sign up link */}
+            {/* don't have account? signup link */}
             <p className="text-center text-sm text-white/40">
               Don&apos;t have an account?{" "}
               <Link

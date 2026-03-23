@@ -63,9 +63,9 @@ const page = () => {
             {/* Heading */}
             <div className="space-y-1">
               <h2 className="text-[1.75rem] font-semibold tracking-tight text-white">
-                Welcome Back
+                Ready to take the next step?
               </h2>
-              <p className="text-sm text-white/40">Sign in to your account</p>
+              <p className="text-sm text-white/40">Create an account.</p>
             </div>
 
             {/* signup form */}
@@ -78,7 +78,7 @@ const page = () => {
               <Separator className="col-span-2" />
             </div>
 
-            {/* Sign in link */}
+            {/* already have account? Sign in link */}
             <p className="text-center text-sm text-white/40">
               Already have an account?{" "}
               <Link
