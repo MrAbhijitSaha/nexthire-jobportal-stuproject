@@ -1,6 +1,6 @@
-import { CustomLayoutProps } from "@/lib/types";
+import { LayoutChildrenProps } from "@/lib/types";
 
-const ApplicationLayout = ({ children }: CustomLayoutProps) => {
+const ApplicationLayout = ({ children }: LayoutChildrenProps) => {
   return <>{children}</>;
 };
 
